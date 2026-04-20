@@ -146,8 +146,8 @@ export default function App() {
                   NOTE: Replace this Unsplash image with your uploaded chair image from Lovable 
                   For now, using a premium spa aesthetic placeholder. 
                 */}
-                /<img 
-                  src="" 
+                <img 
+                  src="/hero-chair.webp" 
                   alt="Premium Massage Setup" 
                   className="object-cover w-full h-full"
                   referrerPolicy="no-referrer"
@@ -260,7 +260,7 @@ export default function App() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Main large image */}
+            {/* Main large image - Luxury White/Gold Chair */}
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -268,15 +268,14 @@ export default function App() {
               className="lg:col-span-2 aspect-[16/9] lg:aspect-auto relative rounded-[3rem] overflow-hidden group shadow-sm hover:shadow-2xl transition-all duration-500"
             >
               <img 
-                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1200&auto=format&fit=crop" 
-                alt="Premium Massage Setup" 
-                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" 
+                src="/white-gold-chair.png" 
+                alt="Luxury White and Gold Full Body Massage Chair" 
+                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 bg-stone-100" 
                 referrerPolicy="no-referrer" 
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </motion.div>
             
-            {/* Right stacked image */}
+            {/* Right stacked image - Brown Leg Massager */}
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -285,15 +284,14 @@ export default function App() {
               className="aspect-square md:aspect-[4/5] lg:aspect-auto relative rounded-[3rem] overflow-hidden group shadow-sm hover:shadow-2xl transition-all duration-500"
             >
               <img 
-                src="https://images.unsplash.com/photo-1519710168122-0d12e8412852?q=80&w=800&auto=format&fit=crop" 
-                alt="Leather details and comfort" 
-                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" 
+                src="/brown-leg-massager.jpg" 
+                alt="Advanced Brown Foot and Calf Massager" 
+                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 bg-stone-100" 
                 referrerPolicy="no-referrer" 
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </motion.div>
 
-            {/* Bottom 1 */}
+            {/* Bottom 1 - White/Grey Chair */}
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -302,15 +300,14 @@ export default function App() {
               className="aspect-square relative rounded-[3rem] overflow-hidden group shadow-sm hover:shadow-2xl transition-all duration-500"
             >
               <img 
-                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600&auto=format&fit=crop" 
-                alt="Soothing therapy environment" 
-                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" 
+                src="/white-grey-chair.jpg" 
+                alt="Premium White and Grey Massage Chair" 
+                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 bg-stone-100" 
                 referrerPolicy="no-referrer" 
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </motion.div>
 
-            {/* Bottom 2 */}
+            {/* Bottom 2 - Leg Massager Features */}
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -319,28 +316,27 @@ export default function App() {
               className="aspect-square relative rounded-[3rem] overflow-hidden group shadow-sm hover:shadow-2xl transition-all duration-500"
             >
               <img 
-                src="https://images.unsplash.com/photo-1629854766939-21cb8b753bf4?q=80&w=600&auto=format&fit=crop" 
-                alt="Aesthetic lounge elements" 
-                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" 
+                src="/leg-massager-features.jpg" 
+                alt="Leg Massager Features and Functions" 
+                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 bg-stone-100" 
                 referrerPolicy="no-referrer" 
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </motion.div>
 
-            {/* Bottom 3 */}
+            {/* Bottom 3 - Integrated Heat Image */}
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
-              className="aspect-square relative rounded-[3rem] overflow-hidden group shadow-sm hover:shadow-2xl transition-all duration-500 bg-stone-900 flex items-center justify-center text-center p-8"
+              className="aspect-square relative rounded-[3rem] overflow-hidden group shadow-sm hover:shadow-2xl transition-all duration-500"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-amber-600/20 rounded-full blur-[40px]"></div>
-              <div className="relative z-10">
-                <Sparkles className="w-8 h-8 text-amber-500 mx-auto mb-4" />
-                <h4 className="text-xl font-bold text-white mb-2">Automated Focus</h4>
-                <p className="text-stone-400 text-sm font-medium">Rejuvenation redefined through modern robotics.</p>
-              </div>
+              <img 
+                src="/integrated-heat.jpg" 
+                alt="Integrated Heat Rollers Therapy" 
+                className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 bg-stone-100" 
+                referrerPolicy="no-referrer" 
+              />
             </motion.div>
           </div>
         </div>
