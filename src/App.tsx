@@ -146,8 +146,8 @@ export default function App() {
                   NOTE: Replace this Unsplash image with your uploaded chair image from Lovable 
                   For now, using a premium spa aesthetic placeholder. 
                 */}
-                <img 
-                  src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1200&auto=format&fit=crop" 
+                /<img 
+                  src="" 
                   alt="Premium Massage Setup" 
                   className="object-cover w-full h-full"
                   referrerPolicy="no-referrer"
